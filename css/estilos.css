@@ -1,0 +1,157 @@
+/* estilos.css */
+
+/* Estilo general */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0 20px;
+  background-color: #f0f8ff;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Imagen en header */
+img {
+  float: right;
+  margin: 10px;
+  max-width: 300px;
+  height: auto;
+}
+
+/* Secciones */
+section {
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #ccc;
+}
+
+h2 {
+  color: #2e8b57;
+  border-bottom: 2px solid #2e8b57;
+  padding-bottom: 5px;
+}
+
+/* Tablas */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th, table td {
+  border: 1px solid #4CAF50;
+  padding: 8px;
+  text-align: left;
+}
+
+table th {
+  background-color: #d4f4dd;
+}
+
+/* Botones */
+button {
+  background-color: #4CAF50;
+  border: none;
+  padding: 10px 18px;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Formulario */
+form input[type="text"],
+form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+/* Multimedia */
+figure {
+  display: inline-block;
+  margin: 10px;
+  border: 1px solid #ccc;
+  padding: 5px;
+  border-radius: 6px;
+  background-color: white;
+  max-width: 270px;
+}
+
+figcaption {
+  text-align: center;
+  font-style: italic;
+  margin-top: 6px;
+  font-size: 0.9rem;
+}
+
+/* Footer */
+footer {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 30px;
+  font-size: 0.9rem;
+}
+
+/* Efectos */
+details summary {
+  cursor: pointer;
+  font-weight: bold;
+  color: #2e8b57;
+}
+
+details[open] summary {
+  color: #4CAF50;
+}
+
+progress {
+  width: 100%;
+  height: 20px;
+  appearance: none;
+}
+
+progress::-webkit-progress-bar {
+  background-color: #ddd;
+  border-radius: 10px;
+}
+
+progress::-webkit-progress-value {
+  background-color: #4CAF50;
+  border-radius: 10px;
+}
+
